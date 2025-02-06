@@ -4,7 +4,7 @@
   subtitle: AMA with CTO and lunch with CTO
   detail: A casual lunch with the CTO to discuss technology, strategy, and innovation. A great opportunity to gain insights, share ideas, and strengthen collaboration in an informal setting.
   secondaryImage: DALL·E 2023-12-17 17.21.27 - A whimsical cat wearing a tiny wizard hat and cape, standing on its hind legs, with a background of twinkling stars and a crescent moon
-  currency: INR
+  currency: ₹
   amount: 1000
   endTime: 2025-02-25T00:05:00+00:00
 
@@ -14,7 +14,7 @@
   subtitle: Experience a day in executive life
   detail: Follow a senior executive through meetings and decision-making processes to get a firsthand look at leadership and strategy in action
   secondaryImage: DALL·E 2023-12-17 17.21.44 - A playful cat lounging in a hammock, surrounded by lush green plants, with a relaxed expression and a tropical drink beside it
-  currency: INR
+  currency: ₹
   amount: 1000
   endTime: 2025-02-28T00:10:00+00:00
 
@@ -24,7 +24,7 @@
   subtitle: Get real feedback from top leaders
   detail: Present your idea to executives, receive valuable insights, and discuss its potential impact on the company. A rare chance to showcase your innovation.
   secondaryImage: DALL·E 2023-12-17 17.21.50 - A curious cat peering out of a spaceship window, with distant planets and stars visible in the background, giving a sense of wonder and explorat
-  currency: INR
+  currency: ₹
   amount: 2000
   endTime: 2025-03-10T00:15:00+00:00
 
@@ -40,20 +40,20 @@
 
 - id: 4
   primaryImage: DALL·E 2023-12-17 17.21.58 - A cat artist painting a masterpiece, surrounded by colorful paint tubes and brushes, with a beret on its head and a look of deep concentration
-  title: Coffee with a Senior Director
-  subtitle: Gain insights over a coffee chat
-  detail: A casual meeting with a Senior Director to discuss career growth, industry trends, and leadership experiences in a relaxed setting.
+  title: FC Madras Tour
+  subtitle: One day tour of best coaching football academy
+  detail: Tour the world class football academy FC Madras and get a chance to meet G
   secondaryImage: DALL·E 2023-12-17 17.21.58 - A cat artist painting a masterpiece, surrounded by colorful paint tubes and brushes, with a beret on its head and a look of deep concentration
-  currency: INR
+  currency: ₹
   amount: 1000
   endTime: 2025-03-15T00:25:00+00:00
 
 - id: 5
   primaryImage: DALL·E 2023-12-17 17.22.00 - A majestic cat wearing a king's crown and robe, sitting on a luxurious throne with an expression of regal dignity, in a grand castle hall
-  title: The Regal Cat
-  subtitle: Royal Elegance
+  title: Privliged Employee Access
+  subtitle: Reserved Car Parking
   detail: A majestic cat adorned with a regal crown and robe, seated upon a throne in a grand hall, exuding noble grace and dignity.
   secondaryImage: DALL·E 2023-12-17 17.22.00 - A majestic cat wearing a king's crown and robe, sitting on a luxurious throne with an expression of regal dignity, in a grand castle hall
-  currency: £
+  currency: ₹
   amount: 0
   endTime: 2023-04-25T00:30:00+00:00

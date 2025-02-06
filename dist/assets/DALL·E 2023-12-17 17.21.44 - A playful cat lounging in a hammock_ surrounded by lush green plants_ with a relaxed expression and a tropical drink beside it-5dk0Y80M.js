@@ -1,1 +1,0 @@
-const _="/hack-for-charity/assets/DALL%C2%B7E%202023-12-17%2017.21.44%20-%20A%20playful%20cat%20lounging%20in%20a%20hammock_%20surrounded%20by%20lush%20green%20plants_%20with%20a%20relaxed%20expression%20and%20a%20tropical%20drink%20beside%20it-DVAHVKLP.png";export{_ as default};

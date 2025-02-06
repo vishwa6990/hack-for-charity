@@ -1,1 +1,0 @@
-const _="/hack-for-charity/assets/DALL%C2%B7E%202023-12-17%2017.22.12%20-%20A%20cat%20pirate%20standing%20on%20the%20deck%20of%20a%20ship_%20with%20a%20pirate%20hat%20and%20an%20eye%20patch_%20holding%20a%20treasure%20map_%20with%20the%20ocean%20and%20a%20tropical%20island%20in-B-3PC6o5.png";export{_ as default};

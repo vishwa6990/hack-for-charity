@@ -48,16 +48,16 @@ const Navbar = ({ admin }) => {
   return (
     <nav className="navbar navbar-dark bg-primary">
       <div className="container-fluid">
-        <div className="navbar-brand mb-0 h1 me-auto">
-          {/* <img
+        {<div className="navbar-brand mb-0 h1 me-auto">
+          {<img
             src={import.meta.env.BASE_URL + "logo.png"}
             alt="Logo"
             width="30"
             height="24"
             className="d-inline-block align-text-top"
-          /> */}
-          Hack for Charity
-        </div>
+          /> }
+          {/* Hack for Charity */}
+        </div> }
         <div className="row row-cols-auto">
           <div className="navbar-brand">{user}</div>
           {admin && (
