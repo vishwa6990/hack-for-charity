@@ -1,7 +1,7 @@
 - id: 0
   primaryImage: lunch_with_cto
-  title: Lunch with the CTO
-  subtitle: AMA with CTO and lunch with CTO
+  title: Lunch and Learn with CTO
+  subtitle: Opportunity to meet Murali in USA
   detail: A casual lunch with the CTO to discuss technology, strategy, and innovation. A great opportunity to gain insights, share ideas, and strengthen collaboration in an informal setting.
   secondaryImage: lunch_with_cto
   currency: ₹
@@ -10,7 +10,7 @@
 
 - id: 1
   primaryImage: follow_cxo
-  title: Shadow a C-Suite Leader for a Day 
+  title: CEO Shadowing Leadership Insights 
   subtitle: Experience a day in executive life
   detail: Follow a senior executive through meetings and decision-making processes to get a firsthand look at leadership and strategy in action
   secondaryImage: follow_cxo

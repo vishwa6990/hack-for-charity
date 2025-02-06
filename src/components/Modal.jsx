@@ -117,7 +117,7 @@ const ItemModal = () => {
     }
     // Ensure input is small enough
     if (amount > status.amount + maxIncrease) {
-      setFeedback(`For the demo you can only increase the price up to ${activeItem.currency}${maxIncrease} per bid.`);
+      setFeedback(`For the charity you can only increase the price up to ${activeItem.currency}${maxIncrease} per bid.`);
       setValid("is-invalid");
       setIsSubmitting(false);
       return;
