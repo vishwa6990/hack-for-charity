@@ -15,6 +15,8 @@ import { SignUpModal } from "./components/Modal";
 import HomePage from "./pages/Home";
 import AdminPage from "./pages/Admin";
 import Footer from "./components/Footer";
+import CreateEvent from "./pages/CreateEvent";
+import CreateCharityEvent from "./pages/CreateCharityEvent";
 
 function App() {
   const demo = false;
@@ -40,6 +42,8 @@ function App() {
         <SignUpModal />
         <Routes>
           <Route path={import.meta.env.BASE_URL} Component={HomePage} />
+          <Route path="/createEvent" Component={CreateEvent} />
+          <Route path="/createCharityEvent" Component={CreateCharityEvent} />
           <Route
             exact
             path={import.meta.env.BASE_URL + "admin"}

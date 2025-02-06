@@ -5,6 +5,8 @@ import { auth } from "../firebase/config";
 import { onAuthStateChanged } from "firebase/auth";
 import { ModalsContext } from "../contexts/ModalsProvider";
 import { ModalTypes } from "../utils/modalTypes";
+import CreateEvent from "../pages/CreateEvent";
+import CreateCharityEvent from "../pages/CreateCharityEvent";
 
 const Navbar = ({ admin }) => {
   const openModal = useContext(ModalsContext).openModal;
@@ -13,6 +15,8 @@ const Navbar = ({ admin }) => {
   const [authButtonText, setAuthButtonText] = useState("Sign up");
   const [adminButtonText, setAdminButtonText] = useState("Admin");
   const location = useLocation();
+  const [createEventText, setCreateEventText] = useState("Event");
+  const [createCharityEventText, setCreateCharityEventText] = useState("Charity Event");
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -25,6 +29,15 @@ const Navbar = ({ admin }) => {
     // Clean up the onAuthStateChanged listener when the component unmounts
     return () => unsubscribe();
   }, [user.displayName]);
+
+  
+ const handleCreateEvent = () => {
+    navigate(import.meta.env.BASE_URL + "createEvent");
+  };
+
+  const handleCreateCharityEvent = () => {
+    navigate(import.meta.env.BASE_URL + "createCharityEvent");
+  };
 
   const handleAdmin = () => {
     if (location.pathname.includes("admin")) {
@@ -56,8 +69,18 @@ const Navbar = ({ admin }) => {
             height="24"
             className="d-inline-block align-text-top"
           /> }
+
           {/* Hack for Charity */}
+          
+          {admin && (
+          <button onClick={handleCreateEvent} className="btn btn-secondary me-2">{createEventText}</button>
+            )}
+            {admin && (
+          <button onClick={handleCreateCharityEvent} className="btn btn-secondary me-2">{createCharityEventText}</button>
+          )}
+
         </div> }
+        
         <div className="row row-cols-auto">
           <div className="navbar-brand">{user}</div>
           {admin && (

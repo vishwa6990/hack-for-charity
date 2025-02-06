@@ -46,7 +46,8 @@ export const Item = ({ item }) => {
   }, [item.endTime]);
 
   useEffect(() => {
-    import(`../assets/${item.primaryImage}.png`).then((src) => {
+   const primaryimage = item.primaryImage ? item.primaryImage : "follow_cxo_old";
+    import(`../assets/${primaryimage}.png`).then((src) => {
       setPrimaryImageSrc(src.default)
     })
   }, [item.primaryImage])
