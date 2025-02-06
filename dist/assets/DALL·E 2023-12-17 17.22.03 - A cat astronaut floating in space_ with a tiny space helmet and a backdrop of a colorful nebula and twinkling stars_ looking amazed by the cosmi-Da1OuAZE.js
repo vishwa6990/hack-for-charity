@@ -1,0 +1,1 @@
+const a="/hack-for-charity/assets/DALL%C2%B7E%202023-12-17%2017.22.03%20-%20A%20cat%20astronaut%20floating%20in%20space_%20with%20a%20tiny%20space%20helmet%20and%20a%20backdrop%20of%20a%20colorful%20nebula%20and%20twinkling%20stars_%20looking%20amazed%20by%20the%20cosmi-D630SOeb.png";export{a as default};

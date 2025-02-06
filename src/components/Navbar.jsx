@@ -49,13 +49,13 @@ const Navbar = ({ admin }) => {
     <nav className="navbar navbar-dark bg-primary">
       <div className="container-fluid">
         <div className="navbar-brand mb-0 h1 me-auto">
-          <img
+          {/* <img
             src={import.meta.env.BASE_URL + "logo.png"}
             alt="Logo"
             width="30"
             height="24"
             className="d-inline-block align-text-top"
-          />
+          /> */}
           Hack for Charity
         </div>
         <div className="row row-cols-auto">
