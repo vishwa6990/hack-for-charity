@@ -1,59 +1,59 @@
 - id: 0
-  primaryImage: DALL·E 2023-12-17 17.21.27 - A whimsical cat wearing a tiny wizard hat and cape, standing on its hind legs, with a background of twinkling stars and a crescent moon
+  primaryImage: lunch_with_cto
   title: Lunch with the CTO
   subtitle: AMA with CTO and lunch with CTO
   detail: A casual lunch with the CTO to discuss technology, strategy, and innovation. A great opportunity to gain insights, share ideas, and strengthen collaboration in an informal setting.
-  secondaryImage: DALL·E 2023-12-17 17.21.27 - A whimsical cat wearing a tiny wizard hat and cape, standing on its hind legs, with a background of twinkling stars and a crescent moon
+  secondaryImage: lunch_with_cto
   currency: ₹
-  amount: 1000
-  endTime: 2025-02-25T00:05:00+00:00
+  amount: 10000
+  endTime: 2025-02-15T00:05:00+00:00
 
 - id: 1
-  primaryImage: DALL·E 2023-12-17 17.21.44 - A playful cat lounging in a hammock, surrounded by lush green plants, with a relaxed expression and a tropical drink beside it
+  primaryImage: follow_cxo
   title: Shadow a C-Suite Leader for a Day 
   subtitle: Experience a day in executive life
   detail: Follow a senior executive through meetings and decision-making processes to get a firsthand look at leadership and strategy in action
-  secondaryImage: DALL·E 2023-12-17 17.21.44 - A playful cat lounging in a hammock, surrounded by lush green plants, with a relaxed expression and a tropical drink beside it
+  secondaryImage: follow_cxo
   currency: ₹
-  amount: 1000
-  endTime: 2025-02-28T00:10:00+00:00
+  amount: 10000
+  endTime: 2025-02-18T00:10:00+00:00
 
 - id: 2
-  primaryImage: DALL·E 2023-12-17 17.21.50 - A curious cat peering out of a spaceship window, with distant planets and stars visible in the background, giving a sense of wonder and explorat
+  primaryImage: fc_madras
+  title: FC Madras Tour with G
+  subtitle: One day tour of best coaching football academy
+  detail: Tour the world class football academy FC Madras and get a chance to meet G
+  secondaryImage: fc_madras
+  currency: ₹
+  amount: 8000
+  endTime: 2025-02-22T00:25:00+00:00
+
+- id: 3
+  primaryImage: idea_pitch
   title: Pitch Your Idea to Executives
   subtitle: Get real feedback from top leaders
   detail: Present your idea to executives, receive valuable insights, and discuss its potential impact on the company. A rare chance to showcase your innovation.
-  secondaryImage: DALL·E 2023-12-17 17.21.50 - A curious cat peering out of a spaceship window, with distant planets and stars visible in the background, giving a sense of wonder and explorat
+  secondaryImage: idea_pitch
   currency: ₹
   amount: 2000
   endTime: 2025-03-10T00:15:00+00:00
 
-- id: 3
-  primaryImage: DALL·E 2023-12-17 17.21.53 - A cat dressed as a detective, complete with a trench coat and magnifying glass, standing in a dimly lit alleyway, looking mysterious and ready t
+- id: 4
+  primaryImage: mentorship
   title: Personalized Career Mentorship
   subtitle: One-on-one guidance from an executive
   detail: Receive tailored career advice from a senior leader, covering professional growth, leadership development, and industry insights in a private session.
-  secondaryImage: DALL·E 2023-12-17 17.21.53 - A cat dressed as a detective, complete with a trench coat and magnifying glass, standing in a dimly lit alleyway, looking mysterious and ready t
-  currency: INR
-  amount: 2000
+  secondaryImage: mentorship
+  currency: ₹
+  amount: 5000
   endTime: 2025-03-15T00:20:00+00:00
 
-- id: 4
-  primaryImage: DALL·E 2023-12-17 17.21.58 - A cat artist painting a masterpiece, surrounded by colorful paint tubes and brushes, with a beret on its head and a look of deep concentration
-  title: FC Madras Tour
-  subtitle: One day tour of best coaching football academy
-  detail: Tour the world class football academy FC Madras and get a chance to meet G
-  secondaryImage: DALL·E 2023-12-17 17.21.58 - A cat artist painting a masterpiece, surrounded by colorful paint tubes and brushes, with a beret on its head and a look of deep concentration
-  currency: ₹
-  amount: 1000
-  endTime: 2025-03-15T00:25:00+00:00
-
 - id: 5
-  primaryImage: DALL·E 2023-12-17 17.22.00 - A majestic cat wearing a king's crown and robe, sitting on a luxurious throne with an expression of regal dignity, in a grand castle hall
+  primaryImage: reserved_parking
   title: Privliged Employee Access
   subtitle: Reserved Car Parking
-  detail: A majestic cat adorned with a regal crown and robe, seated upon a throne in a grand hall, exuding noble grace and dignity.
-  secondaryImage: DALL·E 2023-12-17 17.22.00 - A majestic cat wearing a king's crown and robe, sitting on a luxurious throne with an expression of regal dignity, in a grand castle hall
+  detail: Get the most priviliged access to have dedicated prime parking spot reserved for next 6 months
+  secondaryImage: reserved_parking
   currency: ₹
-  amount: 0
-  endTime: 2023-04-25T00:30:00+00:00
+  amount: 500
+  endTime: 2023-02-11T00:30:00+00:00
