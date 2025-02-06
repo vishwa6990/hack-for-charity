@@ -1,0 +1,1 @@
+const _="/auction-websites/assets/DALL%C2%B7E%202023-12-17%2017.22.07%20-%20A%20cat%20chef%20cooking%20in%20a%20bustling%20kitchen_%20wearing%20a%20chef's%20hat%20and%20apron_%20surrounded%20by%20delicious%20food%20and%20kitchen%20utensils_%20looking%20focused%20and-Cd4GRi1w.png";export{_ as default};

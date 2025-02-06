@@ -1,0 +1,1 @@
+const _="/auction-websites/assets/DALL%C2%B7E%202023-12-17%2017.21.27%20-%20A%20whimsical%20cat%20wearing%20a%20tiny%20wizard%20hat%20and%20cape_%20standing%20on%20its%20hind%20legs_%20with%20a%20background%20of%20twinkling%20stars%20and%20a%20crescent%20moon-Dl6ytud3.png";export{_ as default};
