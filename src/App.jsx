@@ -42,8 +42,8 @@ function App() {
         <SignUpModal />
         <Routes>
           <Route path={import.meta.env.BASE_URL} Component={HomePage} />
-          <Route path="/createEvent" Component={CreateEvent} />
-          <Route path="/createCharityEvent" Component={CreateCharityEvent} />
+          <Route path="/hack-for-charity/createEvent" Component={CreateEvent} />
+          <Route path="/hack-for-charity/createCharityEvent" Component={CreateCharityEvent} />
           <Route
             exact
             path={import.meta.env.BASE_URL + "admin"}
