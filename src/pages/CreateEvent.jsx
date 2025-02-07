@@ -226,16 +226,16 @@ const fetchLastItem = async () => {
                 "name": "Sridevi"
               },
               {
-                "email": "ram.konijeti@freshworks.com",
-                "name": "Ram"
+                "email": "murali.swaminathan@freshworks.com",
+                "name": "Murali"
               },
               {
-                "email": "amrit.mishra@freshworks.com",
-                "name": "Amrit"
+                "email": "johanna.jackman@freshworks.com",
+                "name": "Johanna"
               },
               {
-                "email": "manoj.ganeshsankar@freshworks.com",
-                "name": "Manoj"
+                "email": "jason.loomis@freshworks.com",
+                "name": "Jason"
               }
           ],
           "from": {
