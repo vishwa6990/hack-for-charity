@@ -108,7 +108,7 @@ const fetchLastItem = async () => {
         const nextitemid = lastItem.id+1;
     console.log("??",lastItem);
       const docRef = doc(db, "auction", "items");
-
+      const primary_image_value = formData.title.includes("Drive") ? "bmw" : "charity";
     
       const formDatasample = {
         title: formData.title,
@@ -117,8 +117,8 @@ const fetchLastItem = async () => {
         currency: formData.currency,
         detail: formData.detail,
         endTime: Timestamp.fromDate(new Date(formData.endTime)),
-        primaryImage: "follow_cxo_old",
-        secondaryImage: "follow_cxo_old",
+        primaryImage: primary_image_value,
+        secondaryImage: primary_image_value,
         id: nextitemid
       };
       const itemid = "item0000"+nextitemid+"_bid00000";
