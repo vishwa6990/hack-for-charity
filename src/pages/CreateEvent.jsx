@@ -64,7 +64,10 @@ const getLastItem = async () => {
 
     if (docSnap.exists()) {
       const data = docSnap.data(); // Get all fields inside "items" document
-      const itemKeys = Object.keys(data).sort(); // Sort item keys
+      
+      const itemKeys = Object.keys(data)
+                    .filter(key => "id" in data[key]) // ✅ Keeps items with "id" (even 0/null)
+                    .sort((a, b) => data[a].id - data[b].id); // ✅ Sorts by `id` in ASC order
       const lastItemKey = itemKeys[itemKeys.length - 1]; // Get last item key
 
       console.log("Last Item:", data[lastItemKey]); // Fetch the last item
@@ -105,8 +108,12 @@ const fetchLastItem = async () => {
   try {
       // Reference to the "auction/items" document
       fetchLastItem().then((lastItem) => {
-        const nextitemid = lastItem.id+1;
-    console.log("??",lastItem);
+      console.log("last item:",lastItem);
+      var nextitemid = 50;
+      if (lastItem != null ) {
+        nextitemid = lastItem.id + 1;
+      }
+    
       const docRef = doc(db, "auction", "items");
       const primary_image_value = formData.title.includes("Drive") ? "bmw" : "charity";
     
