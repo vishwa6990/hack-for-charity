@@ -70,9 +70,8 @@ const Navbar = ({ admin }) => {
 
           {/* Hack for Charity */}
 
-          {admin && (
+          
           <button onClick={handleCreateEvent} className="btn btn-secondary me-2">{createEventText}</button>
-            )}
             {admin && (
           <button onClick={handleCreateCharityEvent} className="btn btn-secondary me-2">{createCharityEventText}</button>
           )}
