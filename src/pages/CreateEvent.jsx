@@ -213,6 +213,10 @@ const fetchLastItem = async () => {
               {
                   "email": "vishwakumar.ks@freshworks.com",
                   "name": "Vishwa"
+              },
+              {
+                "email": "sridevivishwa1993@gmail.com",
+                "name": "Sridevi"
               }
           ],
           "from": {
