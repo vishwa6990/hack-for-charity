@@ -5,8 +5,6 @@ import { auth } from "../firebase/config";
 import { onAuthStateChanged } from "firebase/auth";
 import { ModalsContext } from "../contexts/ModalsProvider";
 import { ModalTypes } from "../utils/modalTypes";
-import CreateEvent from "../pages/CreateEvent";
-import CreateCharityEvent from "../pages/CreateCharityEvent";
 
 const Navbar = ({ admin }) => {
   const openModal = useContext(ModalsContext).openModal;
@@ -32,11 +30,11 @@ const Navbar = ({ admin }) => {
 
   
  const handleCreateEvent = () => {
-    navigate(import.meta.env.BASE_URL + "createEvent");
+    navigate(import.meta.env.BASE_URL + "event");
   };
 
   const handleCreateCharityEvent = () => {
-    navigate(import.meta.env.BASE_URL + "createCharityEvent");
+    navigate(import.meta.env.BASE_URL + "charityevent");
   };
 
   const handleAdmin = () => {
@@ -71,7 +69,7 @@ const Navbar = ({ admin }) => {
           /> }
 
           {/* Hack for Charity */}
-          
+
           {admin && (
           <button onClick={handleCreateEvent} className="btn btn-secondary me-2">{createEventText}</button>
             )}
