@@ -220,22 +220,6 @@ const fetchLastItem = async () => {
               {
                   "email": "vishwakumar.ks@freshworks.com",
                   "name": "Vishwa"
-              },
-              {
-                "email": "sridevivishwa1993@gmail.com",
-                "name": "Sridevi"
-              },
-              {
-                "email": "murali.swaminathan@freshworks.com",
-                "name": "Murali"
-              },
-              {
-                "email": "johanna.jackman@freshworks.com",
-                "name": "Johanna"
-              },
-              {
-                "email": "jason.loomis@freshworks.com",
-                "name": "Jason"
               }
           ],
           "from": {
